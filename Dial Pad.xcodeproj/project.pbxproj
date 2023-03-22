@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED61FA8B295E2402008507E8 /* CollectionHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61FA8A295E2402008507E8 /* CollectionHeaderReusableView.swift */; };
+		ED61FA8D295E255F008507E8 /* CollectionHeaderReusableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61FA8C295E255F008507E8 /* CollectionHeaderReusableViewModel.swift */; };
+		ED9DA969293959680014D11C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DA968293959680014D11C /* AppDelegate.swift */; };
+		ED9DA96B293959680014D11C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DA96A293959680014D11C /* SceneDelegate.swift */; };
+		ED9DA96D293959680014D11C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DA96C293959680014D11C /* MainTabBarViewController.swift */; };
+		ED9DA9722939596A0014D11C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9DA9712939596A0014D11C /* Assets.xcassets */; };
+		ED9DA9752939596A0014D11C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9DA9732939596A0014D11C /* LaunchScreen.storyboard */; };
+		ED9DA97F29395B330014D11C /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DA97E29395B330014D11C /* FavouritesViewController.swift */; };
+		ED9DA98129395B410014D11C /* RecentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DA98029395B410014D11C /* RecentsViewController.swift */; };
+		ED9DA98329395B4E0014D11C /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DA98229395B4E0014D11C /* ContactsViewController.swift */; };
+		ED9DA98529395B660014D11C /* KeypadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DA98429395B660014D11C /* KeypadViewController.swift */; };
+		ED9DA98729395B720014D11C /* VoicemailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DA98629395B720014D11C /* VoicemailViewController.swift */; };
+		ED9DA98E293962950014D11C /* ReusableButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DA98D293962950014D11C /* ReusableButtonView.swift */; };
+		ED9DA991293963E00014D11C /* ReusableButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DA990293963E00014D11C /* ReusableButtonViewModel.swift */; };
+		ED9DA9942939F9840014D11C /* AddNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DA9932939F9840014D11C /* AddNumberViewController.swift */; };
+		ED9DA996293A49420014D11C /* PhoneCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DA995293A49420014D11C /* PhoneCallViewController.swift */; };
+		EDA8CFF42944D8DC0055A59B /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8CFF32944D8DC0055A59B /* ContactsTableViewCell.swift */; };
+		EDA8CFF72944E0660055A59B /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8CFF62944E0660055A59B /* ContactViewController.swift */; };
+		EDA8CFF92944E0930055A59B /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8CFF82944E0930055A59B /* AddContactViewController.swift */; };
+		EDA8CFFB2947CA170055A59B /* TableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8CFFA2947CA170055A59B /* TableModel.swift */; };
+		EDA8CFFD2947CA5E0055A59B /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8CFFC2947CA5E0055A59B /* SectionModel.swift */; };
+		EDA8CFFF2947CAB20055A59B /* ContactsTableCollectionViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8CFFE2947CAB20055A59B /* ContactsTableCollectionViewCellModel.swift */; };
+		EDA8D0012947CB7B0055A59B /* ContactReusableButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8D0002947CB7B0055A59B /* ContactReusableButtonView.swift */; };
+		EDA8D0032947DCBC0055A59B /* ContactReusableButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8D0022947DCBC0055A59B /* ContactReusableButtonViewModel.swift */; };
+		EDA8D039295B1E9F0055A59B /* ContactsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8D038295B1E9F0055A59B /* ContactsCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED61FA8A295E2402008507E8 /* CollectionHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderReusableView.swift; sourceTree = "<group>"; };
+		ED61FA8C295E255F008507E8 /* CollectionHeaderReusableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderReusableViewModel.swift; sourceTree = "<group>"; };
+		ED9DA965293959680014D11C /* Dial Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dial Pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9DA968293959680014D11C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED9DA96A293959680014D11C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED9DA96C293959680014D11C /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		ED9DA9712939596A0014D11C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED9DA9742939596A0014D11C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED9DA9762939596A0014D11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9DA97E29395B330014D11C /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		ED9DA98029395B410014D11C /* RecentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsViewController.swift; sourceTree = "<group>"; };
+		ED9DA98229395B4E0014D11C /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		ED9DA98429395B660014D11C /* KeypadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadViewController.swift; sourceTree = "<group>"; };
+		ED9DA98629395B720014D11C /* VoicemailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicemailViewController.swift; sourceTree = "<group>"; };
+		ED9DA98D293962950014D11C /* ReusableButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableButtonView.swift; sourceTree = "<group>"; };
+		ED9DA990293963E00014D11C /* ReusableButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableButtonViewModel.swift; sourceTree = "<group>"; };
+		ED9DA9932939F9840014D11C /* AddNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNumberViewController.swift; sourceTree = "<group>"; };
+		ED9DA995293A49420014D11C /* PhoneCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCallViewController.swift; sourceTree = "<group>"; };
+		EDA8CFF32944D8DC0055A59B /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		EDA8CFF62944E0660055A59B /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		EDA8CFF82944E0930055A59B /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		EDA8CFFA2947CA170055A59B /* TableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
+		EDA8CFFC2947CA5E0055A59B /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		EDA8CFFE2947CAB20055A59B /* ContactsTableCollectionViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableCollectionViewCellModel.swift; sourceTree = "<group>"; };
+		EDA8D0002947CB7B0055A59B /* ContactReusableButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactReusableButtonView.swift; sourceTree = "<group>"; };
+		EDA8D0022947DCBC0055A59B /* ContactReusableButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactReusableButtonViewModel.swift; sourceTree = "<group>"; };
+		EDA8D038295B1E9F0055A59B /* ContactsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED9DA962293959680014D11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED9DA95C293959680014D11C = {
+			isa = PBXGroup;
+			children = (
+				ED9DA98F293963C70014D11C /* ViewModels */,
+				ED9DA98829395F5C0014D11C /* Views */,
+				ED9DA97C29395B010014D11C /* Controllers */,
+				ED9DA967293959680014D11C /* Dial Pad */,
+				ED9DA966293959680014D11C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED9DA966293959680014D11C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED9DA965293959680014D11C /* Dial Pad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED9DA967293959680014D11C /* Dial Pad */ = {
+			isa = PBXGroup;
+			children = (
+				ED9DA968293959680014D11C /* AppDelegate.swift */,
+				ED9DA96A293959680014D11C /* SceneDelegate.swift */,
+				ED9DA9712939596A0014D11C /* Assets.xcassets */,
+				ED9DA9732939596A0014D11C /* LaunchScreen.storyboard */,
+				ED9DA9762939596A0014D11C /* Info.plist */,
+			);
+			path = "Dial Pad";
+			sourceTree = "<group>";
+		};
+		ED9DA97C29395B010014D11C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDA8CFF52944E03A0055A59B /* ContactControllers */,
+				ED9DA9922939F94F0014D11C /* Other */,
+				ED9DA97D29395B120014D11C /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ED9DA97D29395B120014D11C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ED9DA96C293959680014D11C /* MainTabBarViewController.swift */,
+				ED9DA97E29395B330014D11C /* FavouritesViewController.swift */,
+				ED9DA98029395B410014D11C /* RecentsViewController.swift */,
+				ED9DA98229395B4E0014D11C /* ContactsViewController.swift */,
+				ED9DA98429395B660014D11C /* KeypadViewController.swift */,
+				ED9DA98629395B720014D11C /* VoicemailViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ED9DA98829395F5C0014D11C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED9DA98D293962950014D11C /* ReusableButtonView.swift */,
+				EDA8CFF32944D8DC0055A59B /* ContactsTableViewCell.swift */,
+				EDA8D0002947CB7B0055A59B /* ContactReusableButtonView.swift */,
+				EDA8D038295B1E9F0055A59B /* ContactsCollectionViewCell.swift */,
+				ED61FA8A295E2402008507E8 /* CollectionHeaderReusableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED9DA98F293963C70014D11C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ED9DA990293963E00014D11C /* ReusableButtonViewModel.swift */,
+				EDA8CFFA2947CA170055A59B /* TableModel.swift */,
+				EDA8CFFC2947CA5E0055A59B /* SectionModel.swift */,
+				EDA8CFFE2947CAB20055A59B /* ContactsTableCollectionViewCellModel.swift */,
+				EDA8D0022947DCBC0055A59B /* ContactReusableButtonViewModel.swift */,
+				ED61FA8C295E255F008507E8 /* CollectionHeaderReusableViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ED9DA9922939F94F0014D11C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ED9DA9932939F9840014D11C /* AddNumberViewController.swift */,
+				ED9DA995293A49420014D11C /* PhoneCallViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EDA8CFF52944E03A0055A59B /* ContactControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDA8CFF62944E0660055A59B /* ContactViewController.swift */,
+				EDA8CFF82944E0930055A59B /* AddContactViewController.swift */,
+			);
+			path = ContactControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED9DA964293959680014D11C /* Dial Pad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9DA9792939596A0014D11C /* Build configuration list for PBXNativeTarget "Dial Pad" */;
+			buildPhases = (
+				ED9DA961293959680014D11C /* Sources */,
+				ED9DA962293959680014D11C /* Frameworks */,
+				ED9DA963293959680014D11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dial Pad";
+			productName = "Dial Pad";
+			productReference = ED9DA965293959680014D11C /* Dial Pad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED9DA95D293959680014D11C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					ED9DA964293959680014D11C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = ED9DA960293959680014D11C /* Build configuration list for PBXProject "Dial Pad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED9DA95C293959680014D11C;
+			productRefGroup = ED9DA966293959680014D11C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED9DA964293959680014D11C /* Dial Pad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED9DA963293959680014D11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9DA9752939596A0014D11C /* LaunchScreen.storyboard in Resources */,
+				ED9DA9722939596A0014D11C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED9DA961293959680014D11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA8CFF92944E0930055A59B /* AddContactViewController.swift in Sources */,
+				ED9DA98729395B720014D11C /* VoicemailViewController.swift in Sources */,
+				ED61FA8D295E255F008507E8 /* CollectionHeaderReusableViewModel.swift in Sources */,
+				EDA8CFF72944E0660055A59B /* ContactViewController.swift in Sources */,
+				ED9DA98129395B410014D11C /* RecentsViewController.swift in Sources */,
+				ED61FA8B295E2402008507E8 /* CollectionHeaderReusableView.swift in Sources */,
+				EDA8CFFB2947CA170055A59B /* TableModel.swift in Sources */,
+				ED9DA97F29395B330014D11C /* FavouritesViewController.swift in Sources */,
+				EDA8D0032947DCBC0055A59B /* ContactReusableButtonViewModel.swift in Sources */,
+				ED9DA98529395B660014D11C /* KeypadViewController.swift in Sources */,
+				EDA8D039295B1E9F0055A59B /* ContactsCollectionViewCell.swift in Sources */,
+				EDA8CFF42944D8DC0055A59B /* ContactsTableViewCell.swift in Sources */,
+				EDA8D0012947CB7B0055A59B /* ContactReusableButtonView.swift in Sources */,
+				EDA8CFFF2947CAB20055A59B /* ContactsTableCollectionViewCellModel.swift in Sources */,
+				ED9DA96D293959680014D11C /* MainTabBarViewController.swift in Sources */,
+				ED9DA996293A49420014D11C /* PhoneCallViewController.swift in Sources */,
+				ED9DA9942939F9840014D11C /* AddNumberViewController.swift in Sources */,
+				ED9DA991293963E00014D11C /* ReusableButtonViewModel.swift in Sources */,
+				ED9DA969293959680014D11C /* AppDelegate.swift in Sources */,
+				ED9DA98E293962950014D11C /* ReusableButtonView.swift in Sources */,
+				ED9DA96B293959680014D11C /* SceneDelegate.swift in Sources */,
+				EDA8CFFD2947CA5E0055A59B /* SectionModel.swift in Sources */,
+				ED9DA98329395B4E0014D11C /* ContactsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED9DA9732939596A0014D11C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED9DA9742939596A0014D11C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED9DA9772939596A0014D11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED9DA9782939596A0014D11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED9DA97A2939596A0014D11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dial Pad/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bekabuturishvili.Dial-Pad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED9DA97B2939596A0014D11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dial Pad/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bekabuturishvili.Dial-Pad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED9DA960293959680014D11C /* Build configuration list for PBXProject "Dial Pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9DA9772939596A0014D11C /* Debug */,
+				ED9DA9782939596A0014D11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9DA9792939596A0014D11C /* Build configuration list for PBXNativeTarget "Dial Pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9DA97A2939596A0014D11C /* Debug */,
+				ED9DA97B2939596A0014D11C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED9DA95D293959680014D11C /* Project object */;
+}
